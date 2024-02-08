@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.divourworld{
+    background-color: black;
+}
+
+.ourworldSection{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourworldSectionNew{
+    margin: 100px auto;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.ourworld1{
+    display: flex;
+    gap: 20px;
+}
+
+.ourworld1New{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ourworldImage img{
+    /* width: 100%; */
+    width: 356px;
+}
+
+.ourworldText{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.ourworldText h4{
+    color: #fff;
+}
+
+.ourworldText p{
+    color: #777777;
+}

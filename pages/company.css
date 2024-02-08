@@ -1,0 +1,623 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.divCompany{
+    background-image: url(../companyImages/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.headerCompany{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companyH1{
+    margin: 70px auto;
+}
+
+.companyH1 h1{
+    font-size: 70px;
+    text-align: left;
+    color: white;
+}
+
+#companyHH1{
+    letter-spacing: 6px;
+    word-spacing: 15px;
+}
+
+.scrollCompany{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.scrollCompany span{
+    color: #FFFFFFA6;
+}
+
+.scrollDownCompany{
+    border: 1px solid white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollDownCompany i{
+    font-size: 40px;
+    color: white;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+}
+
+@keyframes scroll {
+    0%{
+        margin-top: -20px;
+    }
+    50%{
+        margin-top: 20px;
+    }
+    100%{
+        margin-top: 40px;
+    }
+}
+
+.companySection1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compSection1PTag{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    gap: 10px;
+}
+
+.compSection1PTag p{
+    font-size: 35px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.compSection1ImageText{
+    width: 75%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.compSection1Text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.compSection1TextH1{
+    display: flex;
+    flex-direction: column;
+}
+
+.compSection1TextH1 h1{
+    font-size: 30px;
+}
+
+.compSection1TextP1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.compSection1TextP1 p{
+    font-size: 17px;
+    color: #777777;
+}
+
+.compSection1Image{
+    width: 50%;
+}
+
+.compSection1Image img{
+    width: 100%;
+    height: 100%;
+}
+
+.companySection2{
+    width: 100%;
+    margin-top: 250px;
+}
+
+.companySection2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.companySection3{
+    background-color: #181F1E;
+    width: 100%;
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.companySection33{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin: 150px auto;
+}
+
+.compSection3Div1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.compSection3Div111{
+    color: white;
+    font-size: 20px;
+}
+
+.compSection3Div1Text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.compSection3Div1Text p{
+    color: white;
+    font-size: 35px;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+.compSection3Div2{
+    width: 100%;
+    display: flex;
+}
+
+.compSection3Div2Image{
+    width: 42%;
+}
+
+.compSection3Div2Image img{
+    width: 100%;
+    height: 100%;
+}
+
+.compSection3Div2Text{
+    width: 58%;
+    padding: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.compSection3Div2TextPP{
+    color: white;
+    font-size: 19px;
+}
+
+.compSection3Div2Text1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.compSection3Div2Text1 h1{
+    color: white;
+    font-size: 27px;
+}
+
+.compSection3Div2Text2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.compSection3Div2Text2 p{
+    font-size: 18px;
+    color: #777777;
+}
+
+.compSection3Div4{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.compSection3Div3 p{
+    color: white;
+    font-size: 19px;
+}
+
+.compSection3Div44{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+
+.compSection3Div4Image{
+    width: 35%;
+    height: 250px;
+}
+
+.compSection3Div4Image img{
+    width: 100%;
+    height: 100%;
+}
+
+.compSection3Div4text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.compSection3Div4Text1{
+    display: flex;
+    gap: 30px;
+}
+
+.compSection3Div4Text1Number p{
+    color: #777777;
+}
+
+.compSection3Div4Text1Texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.compSection3Div4Text1Texts h1{
+    color: white;
+}
+
+.compSection3Div4Text1TextsNew{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.compSection3Div4Text1TextsNew p{
+    color: #777777;
+}
+
+.companySection4{
+    background-color: #f3f3f3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companySection41New{
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.companySection4Div1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.companySection4Div1 h1{
+    font-size: 30px;
+    margin-top: 100px;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+.companySection4Div2{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.companySection4Div2Image{
+    width: 45%;
+    height: 650px;
+}
+
+.companySection4Div2Image img{
+    width: 100%;
+    height: 100%;
+    margin: -80px 0px;
+}
+
+.companySection4Div2Text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.companySection4Div2Text h1{
+    font-size: 35px;
+}
+
+.companySection4Div2TextNew{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.companySection4Div2TextNew p{
+    color: #777777;
+    font-size: 18px;
+}
+
+.companySection4Div21{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.companySection4Div2Image1{
+    width: 45%;
+    height: 650px;
+}
+
+.companySection4Div2Image1 img{
+    width: 100%;
+    height: 100%;
+    margin: -80px 0px;
+}
+
+.companySection4Div2Text1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.companySection4Div2Text1 h1{
+    font-size: 35px;
+}
+
+.companySection4Div2TextNew1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.companySection4Div2TextNew1 p{
+    color: #777777;
+    font-size: 18px;
+}
+
+.companySection551{
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companySection5Div1{
+    width: 83%;
+    padding-top: 150px;
+}
+
+.companySection5Div1 h1{
+    font-size: 35px;
+}
+
+.companySection5{
+    width: 100%;
+    display: flex;
+}
+
+.companySection5Div2{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    background-color: #f3f3f3;
+    gap: 20px;
+}
+
+.companySection5Div2Images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.companySection5Div2ImagesDiv1{
+    width: 100%;
+}
+
+.companySection5Div2ImagesDiv1 img{
+    width: 100%;
+}
+
+.companySection5Div2Images h1{
+    font-size: 16px;
+}
+
+.companySection5Div2Images p{
+    font-size: 14px;
+    color: #777777;
+}
+
+.companySection6{
+    background-image: url(../companyImages/img20.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.companySection6Text h1{
+    font-size: 50px;
+    color: white;
+}
+
+.companySection6Button{
+    border: 1px solid rgb(187, 169, 169);
+    width: 10%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companySection6Button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width : 550px) {
+    .divCompany{
+        width: 610px;
+    }
+    .companyH1{
+        margin: 50px auto;
+    }
+    .companyH1 h1{
+        font-size: 40px;
+    }
+    .companySection1{
+        width: 610px;
+        padding: 20px;
+    }
+    .compSection1PTag p{
+        font-size: 35px;
+    }
+    .compSection1ImageText{
+        width: 580px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .compSection1Text{
+        width: 500px;
+        padding: 20px;
+    }
+    .companySection2{
+        width: 610px;
+        margin-top: 150px;
+    }
+    .companySection3{
+        width: 610px;
+    }
+    .companySection33{
+        width: 550px;
+    }
+    .compSection3Div1{
+        width: 550px;
+    }
+    .compSection3Div2{
+        width: 580px;
+        flex-direction: column;
+    }
+    .compSection3Div2Image{
+        width: 580px;
+    }
+    .compSection3Div2Image img{
+        width: 530px;
+        padding: 20px;
+    }
+    .compSection3Div2Text{
+        width: 550px;
+        padding: 20px;
+    }
+    .compSection3Div44{
+        width: 550px;
+        flex-direction: column;
+    }
+    .compSection3Div4Image{
+        width: 550px;
+    }
+    .companySection4{
+        width: 610px;
+    }
+    .companySection4Div2{
+        width: 550px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .companySection4Div2Image{
+        width: 400px;
+    }
+    .companySection4Div2Text{
+        padding: 50px;
+    }
+    .companySection4Div21{
+        width: 550px;
+        flex-direction: column;
+        padding: 50px;
+        height: 1000px;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+    .companySection4Div2Image1{
+        width: 400px;
+    }
+    .companySection4Div2Image1 img{
+        margin-top: 100px;
+    }
+    .companySection551{
+        width: 610px;
+    }
+    .companySection5Div1{
+        width: 500px;
+    }
+    .companySection5{
+        width: 610px;
+    }
+    .companySection5Div2{
+        width: 610px;
+        flex-direction: column;
+    }
+    .companySection5Div2Images{
+        width: 500px;
+        margin: 0px auto;
+    }
+    .companySection6{
+        width: 610px;
+    }
+    .companySection6Button{
+        width: 200px;
+    }
+}
